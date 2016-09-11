@@ -31,6 +31,25 @@
 //================= Current Version =======================================
 //= 1.0
 //=========================================================================
+//= note
+//=map_name = Map Name ("this" is actual map)
+//= X = X (horizontal) coordinates on map_name
+//= Y = Y (vertical) coordinates on map_name
+//= X2 = X2 (horizontal) rectangle
+//= Y2 = Y2 (vertical) rectangle
+//= <TAB> = Replace this with a tab
+//= Name = Name that will show
+//= mob_id = Monster ID (from mob_db)
+//= <TAB> = Replace this with a tab
+//= amount = Amount to be spawned
+//= delay = Delay (in milliseconds)
+//= variance = Delay variance (in milliseconds)
+//= event = NPC event that will be called when the monster dies (Example: NPCName::Label)
+
+//==Test Spawn Monster at Morocc
+
+morocc,158,92,0,0	monster	Baphomet	1039,5,0,0,0
+morocc,158,92,0,0	monster	Event Dropper	1916,1,18000000,0,0
 
 //== einbech - Einbech, the Mining Village =================
 einbech,0,0,0,0	monster	Tarou	1175,5,1800000,1500000,0
@@ -46,3 +65,4 @@ jawaii,276,163,20,30	monster	Shellfish	1074,2,4200000,2400000,0
 jawaii_in,128,121,1,4	monster	Red Mushroom	1085,1,3000000,1200000,0
 jawaii_in,124,76,1,1	monster	Black Mushroom	1084,1,3600000,1200000,0
 jawaii_in,72,74,5,1	monster	Black Mushroom	1084,2,3000000,1200000,0
+
